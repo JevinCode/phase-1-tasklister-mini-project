@@ -35,3 +35,22 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+.low-prio, .med-prio, .high-prio {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+.low-prio {
+  background: green;
+}
+
+.med-prio {
+  background: yellow;
+}
+
+.high-prio {
+  background: red;
+}
